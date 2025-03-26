@@ -1,6 +1,6 @@
-# 🎱 Magic 8Ball
+# 🎱 Magic-8-Ball
 
-**Magic 8Ball** is a simple fortune-telling web application that simulates the classic **Magic 8-Ball** toy. Ask a question, click the ball, and receive a randomly generated answer!
+**Magic-8-Ball** is a simple fortune-telling web application that simulates the classic **Magic 8-Ball** toy. Ask a question, click the ball, and receive a randomly generated answer!
 
 ## ✨ Features
 
@@ -20,7 +20,7 @@ This project was built using:
 ## 📁 Project Structure
 
 ```
-magic8ball/
+Magic-8-Ball/
 ├── index.html
 ├── css/
 │ └── main.css
