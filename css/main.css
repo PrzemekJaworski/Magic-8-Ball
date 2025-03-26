@@ -1,0 +1,115 @@
+/* 🎱 Global Styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* 🎱 Body Styling - Centering App & Background */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(315deg, #5ecbb6 0%, #efebb5 74%);
+}
+
+/* 🎱 Wrapper - Main Container */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 600px;
+}
+
+/* 🎱 Title & Instructions */
+.info {
+  text-align: center;
+  font-size: 30px;
+}
+
+.info h1 {
+  margin-bottom: 10px;
+  font-size: 60px;
+}
+
+/* 🎱 8-Ball Image */
+.ball-img {
+  position: relative;
+  height: 250px;
+}
+
+.ball-img img {
+  position: absolute;
+  top: 30px;
+  left: 300px;
+  width: 300px;
+  cursor: pointer;
+}
+
+/* 🎱 Question Area */
+.question-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+}
+
+/* 🎱 Question Title */
+.question-area h2 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+/* 🎱 Input Field */
+.question-area input {
+  padding: 10px 20px;
+  width: 80%;
+  font-size: 20px;
+  border: 2px solid #ef6e74;
+  border-radius: 8px;
+}
+
+/* 🎱 Answer & Error Messages */
+.question-area .answer {
+  margin-top: 30px;
+}
+
+.question-area .answer span {
+  font-weight: bold;
+}
+
+.question-area .error {
+  font-weight: bold;
+  color: #ef6e74;
+}
+
+/* 🎱 8-Ball Shake Animation */
+.shake-animation {
+  animation: shake 1.5s 1;
+}
+
+@keyframes shake {
+  0% {
+    left: 290px;
+  }
+  20% {
+    left: 340px;
+  }
+  40% {
+    left: 290px;
+  }
+  60% {
+    left: 340px;
+  }
+  80% {
+    left: 290px;
+  }
+  100% {
+    left: 340px;
+  }
+}
